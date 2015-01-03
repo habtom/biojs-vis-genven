@@ -226,3 +226,129 @@ csmall2 {
 	background: #00b3fe;
 }
 
+/*-----*/
+
+#tooltip {
+        position: absolute;
+        width: 90px;
+        height: auto;
+        padding: 10px;
+        background-color: white;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+}
+
+#tooltip.hidden {
+        display: none;
+}
+
+#tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        word-wrap: break-word;
+  		overflow-x: auto;
+}
+
+/*-----*/
+
+#title1 {
+	border:1px dotted #00bf00;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#title2 {
+	border:1px dotted #007fff;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#title3 {
+	border:1px dotted #ff3433;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#title4 {
+	border:1px dotted #A57706;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#title5 {
+	border:1px dotted #A57706;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#title6 {
+	border:1px dotted #A57706;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+
+#s1 {
+	border:1px dotted #00bf00;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#s2 {
+	border:1px dotted #007fff;
+    box-shadow: 0 0 10px #719ECE;
+}
+#s3 {
+	border:1px dotted #ff3433;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#s4 {
+	border:1px dotted #A57706;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#s5 {
+	border:1px dotted #BD3613;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+#s6 {
+	border:1px dotted #c09853;
+    box-shadow: 0 0 10px #719ECE;
+
+}
+
+/* genevenn tooltip */
+.genvenntooltip {
+  position: absolute;
+  text-align: left;
+  width: 90px;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  pointer-events: none;
+  word-wrap: break-word;
+  overflow-x: auto;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
